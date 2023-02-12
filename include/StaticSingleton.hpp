@@ -12,9 +12,9 @@ public:
     StaticSingleton(const StaticSingleton&&) = delete;
     StaticSingleton& operator=(const StaticSingleton&) = delete;
     StaticSingleton& operator=(const StaticSingleton&&) = delete;
-std::string a = "This is a static singleton!";
+
 private:
-    
+    std::string message = "This is a static singleton!";    
 
     StaticSingleton() = default;
     ~StaticSingleton() = default;

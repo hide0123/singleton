@@ -6,5 +6,5 @@ StaticSingleton& StaticSingleton::getInstance() {
 }
 
 std::ostream& operator<<(std::ostream& stream, const StaticSingleton& staSin) {
-    return stream << staSin.a.c_str();
+    return stream << staSin.message.c_str();
 }
