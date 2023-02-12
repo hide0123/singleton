@@ -1,2 +1,10 @@
 # singleton
-The singleton pattern in C++
+The singleton pattern example in C++
+
+## Usage
+```bash
+mkdir build && cd build
+cmake ..
+make
+./singleton
+```
